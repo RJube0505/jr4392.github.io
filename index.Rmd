@@ -7,6 +7,20 @@ output:
     toc_float: true
 ---
 
-[About me](about.html)
+# Problem 1
 
-[P8105](https://p8105.com)
+* ## here is my dog~
+![image](WechatIMG224.jpg)
+* ## Academic and professional experience
+* [About me](about.html)
+
+* ## Links
+* [P8105](https://p8105.com)
+* [GitHub Account](https://github.com/RJube0505)
+* [email](rjube0505@gmail.com)
+  
+
+
+  
+  
+  
