@@ -1,0 +1,18 @@
+name: "My website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Plotly"
+      href: plotly.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<rjube0505@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/rjube0505/jr4392/
+output:
+  html_document:
+    theme: cerulean

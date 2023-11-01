@@ -1,0 +1,46 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# EDUCATION
+College of Engineering & Applied Sciences, Stony Brook University, New York	
+/08.2019-05.2022/
+
+* B.S. in Applied Mathematics & Statistics; B.S. in Psychology
+
+*	Honors: Dean’s List – Spring 2020, Fall 2020, Fall 2021
+
+
+# RESEARCH EXPERIENCE
+
+## Initiatives for Sustainable Poverty Eradication in Different Economic Patterns
+* Reviewed and selected articles on sustainability initiatives of both developed and developing economic entities and conducted literature review accordingly.
+* Compared and analyzed differences and commonality between developing and developed economies in terms of agriculture, energy and political systems that impact sustainable development.
+* Concluded agricultural developmental structures of both economies, analyzed the variation of global energy transition index, and proposed framework of sustainable development for developing economies. 
+
+
+## Two-dimensional Nanomaterials for Cancer Treatment
+*	Reviewed existing research and literature on relevant topics and concluded the synthetic methods and properties of different materials. 
+*	Evaluated the advantages and disadvantages of different materials that applied in cancer treatment. 
+*	Conducted feasibility and sustainability analysis of functional two-dimensional nanobiomaterials for cancer therapy
+
+
+# SELECTED ACADEMIC PROJECTS
+
+## The Giant Component of a Random Graph
+*	Investigated the relationship between the connected components in a random graph and the number of edges in the graph and explored the transition point between two extremes.
+*	Generated a function exhibiting adjacency list of a random graph, a function that returns the size of the largest component of the graph, and a function to reach trials random graphs and find the average normalized size of the largest component. 
+*	Plotted visual representations of the random graphs and conducted further experiment by computing the ratio of the size of the giant component to the size of the second largest component.
+*	Analyzed results about the size of the giant component computed in.
+
+
+## The Effect of Gender Difference on Adolescent Depression
+*	Designed and released survey on the impact of COVID-19 on living conditions among adolescents
+*	Collected and organized survey data and compared the data of answers by both male and female adolescents. 
+*	Designed the experiments that studied the influence on daughters of mothers with psychiatric history, collected relevant fMRI (functional Magnetic Resonance Imaging) data, and performed data analysis by AFNI (Analysis of Functional Neuro Images).
+
+

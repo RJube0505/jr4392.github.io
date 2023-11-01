@@ -1,0 +1,57 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("rest_inspec")
+rest_inspec = 
+  rest_inspec |>
+  janitor::clean_names() |>
+  select(boro,critical_flag, cuisine_description, score, grade, violation_code, violation_description, grade_date, zipcode) |>
+  filter(
+    boro == "STATEN ISLAND",
+    year(grade_date) == 2017
+  ) |>
+  mutate(grade = case_when(
+    score >= 28 ~ "C",
+    score >= 14 ~ "B",
+    score >= 0  ~ "A",
+    TRUE ~ NA_character_
+  )) |>
+  na.omit(rest_inspec) 
+```
+
+```{r}
+rest_inspec |> 
+  mutate(text_lable = str_c("grade", grade ,"\nviolation_description", violation_description)) |>
+  plot_ly(
+    y = ~score, x = ~zipcode, color = ~critical_flag, text = ~text_lable, alpha = .5, type = "scatter", mode = "markers", colors = "viridis"
+  ) |>
+    layout(xaxis = list(type = "category"))
+```
+
+```{r}
+rest_inspec |>
+  mutate(cuisine_description = fct_reorder(cuisine_description, score)) |>
+  plot_ly(
+    y = ~score, x = ~cuisine_description, color = ~ cuisine_description, type = "box") 
+```
+
+```{r}
+rest_inspec |>
+  count(zipcode) |>
+  plot_ly(x = ~zipcode, y = ~n, color = ~zipcode, type = "bar") |>
+  layout(xaxis = list(type = "category"))
+```
+
+
