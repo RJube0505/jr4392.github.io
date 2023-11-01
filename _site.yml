@@ -12,7 +12,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<rjube0505@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/rjube0505/jr4392/
+      href: http://github.com/rjube0505/
 output:
   html_document:
     theme: cerulean
