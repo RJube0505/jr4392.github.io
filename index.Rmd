@@ -17,7 +17,14 @@ output:
 * ## Links
 * [P8105](https://p8105.com)
 * [GitHub Account](https://github.com/RJube0505)
-* [email](rjube0505@gmail.com)
+* [email](mailto:rjube0505@gmail.com)
+
+
+# Problem 2
+
+Use the dataset NYC Restaurant Inspections.
+
+* [plotly](plotly.html)
   
 
 
