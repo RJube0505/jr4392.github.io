@@ -1,11 +1,11 @@
 ---
-title: "My website"
-author: "Junyi Ren"
+title: "Homework 4 website"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
+I'm Junyi Ren and here is my P8105-HW4 website.
 
 # Problem 1
 
@@ -17,14 +17,15 @@ output:
 * ## Links
 * [P8105](https://p8105.com)
 * [GitHub Account](https://github.com/RJube0505)
-* [email](mailto:rjube0505@gmail.com)
+* [E-mail](mailto:rjube0505@gmail.com)
 
 
 # Problem 2
 
 Use the dataset NYC Restaurant Inspections.
 
-* [plotly](plotly.html)
+* [Plotly](plotly.html)
+* [Dashboard](dashboard.html)
   
 
 
