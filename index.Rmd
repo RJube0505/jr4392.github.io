@@ -10,7 +10,7 @@ output:
 # Problem 1
 
 * ## here is my dog~
-![image](WechatIMG224.jpg)
+![](WechatIMG224.jpg)
 * ## Academic and professional experience
 * [About me](about.html)
 
